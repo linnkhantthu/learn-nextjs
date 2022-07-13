@@ -1,0 +1,13 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+}
+.card > a{
+    text-decoration: none;
+    color: black;
+}

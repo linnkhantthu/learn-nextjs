@@ -1,0 +1,9 @@
+.title{
+    color: black;
+}
+.title > span{
+    color: blue;
+}
+.description{
+    color: red;
+}
