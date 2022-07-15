@@ -2,7 +2,8 @@
   "entry_script": "start",
   "entry_file": "pages/index.js",
   "scripts": {
-    "start": "next dev -p 3450"
+    "start": "next dev -p 3450",
+    "build": "next build && next export"
   },
   "dependencies": {
     "es6-promise": "^4.2.8",
