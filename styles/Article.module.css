@@ -1,13 +1,24 @@
 .grid{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .card{
     background-color: lightgrey;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
 }
 .card > a{
     text-decoration: none;
     color: black;
+}
+.card:hover{
+    background-color: whitesmoke;
+    transition: 0.5s all;
+}
+@media screen and (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+    }
 }

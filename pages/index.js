@@ -3,7 +3,6 @@ import "isomorphic-fetch"
 import { ArticleList } from '../components/ArticleList'
 
 function Home({articles}) {
-  console.log(articles)
   return (
     <div>
     <Head>
